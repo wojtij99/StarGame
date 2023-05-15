@@ -1,0 +1,36 @@
+#lpanel
+{
+	background-color:#222;
+	opacity: 0.90;
+	margin-left: auto;
+	margin-top: 10%;
+	margin-right: auto;
+	padding-left: 10px;
+	min-height: 220px;
+	width:320px;
+	font-size:22px;	
+}
+
+main
+{
+	background-color: rgba(55, 55, 55, 0.7);
+	padding: 10px;
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	/*max-height: 330px;*/
+}
+
+#reg
+{
+	float: left;
+}
+
+#login
+{
+	float: left;
+	padding-left: 10px;
+}

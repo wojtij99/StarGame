@@ -1,0 +1,151 @@
+body
+{
+	background-color:#000055;
+	font-size:15px;
+	margin:0px;
+	padding:0px;
+	color:#eeeeee;
+	
+    font-family: 'VT323', monospace;
+
+    /*font-family: 'Press Start 2P', cursive*/
+}
+#con
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+#rpanel
+{
+	background-color:#222;
+	opacity: 0.90;
+	margin-left: auto;
+	margin-top: 180px;
+	margin-right: auto;
+	padding-left: 10px;
+	height: 430px;
+	width:320px;
+	font-size:22px;
+}
+#rej
+{
+	float:left;
+}
+#log
+{
+	float:left;
+}
+#logo
+{
+	float:left;
+	font-size:40px;
+}
+#zegar
+{
+	float:left;
+}
+#opcje
+{
+	position:absolute;
+	right:0;
+	float:left;
+}
+#surowce
+{
+	float:left;
+	min-width:100px;
+	min-height:8px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:11px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#naw
+{
+	background-color:transparent;
+	width:195px;
+	height:500px;
+	float:left;
+	opacity: 1;
+}
+.przycisk
+{
+	text-align:center;
+	width:183px;
+	font-size:20px;
+	margin:6px;
+	color:#222222;
+	background-color:#aaaaaa;
+	opacity: 1;
+}
+.przycisk:hover
+{
+	color:#aaaaaa;
+	background-color:#222222;
+}
+#podglad
+{
+	width:960px;
+	background-color:#129845;
+	height:300px;
+	opacity: 1;
+	margin-left:192px;
+}
+#panel
+{
+	width:960px;
+	background-color:#465743;
+	min-height:100px;
+	margin-left:192px;
+}
+#panelg
+{
+	width:960px;
+	background-color:#465743;
+	min-height:500px;
+	margin-left:192px;
+}
+#kolejka
+{
+	margin-left: 192px;
+	width: 960px;
+	height: 100px;
+	background-color: #666666;
+}
+.wagon
+{
+	float: left;
+	border-style: double;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 305px;
+	height: 85px;
+}
+.wwagon
+{
+	float:left;
+	color:#000;
+}
+footer
+{
+	background-color:#000000;
+	text-align:center;
+}
+.block
+{
+	display:block;
+	cursor:pointer;
+}
+.block2
+{
+	display:block;
+	cursor:pointer;
+	height:55px;
+	width:55px;
+}
